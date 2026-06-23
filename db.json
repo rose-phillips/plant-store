@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Boston Fern",
+      "description": "A lush, feathery fern perfect for adding a touch of greenery to any indoor space. Easy to care for and ideal for hanging baskets or shelves.",
+      "price": "15",
+      "image": "plant-store/src/assets/michaela-zakopcanikova-ZFKbnI1fQTc-unsplash.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Monstera Deliciosa",
+      "description": "A striking tropical plant known for its large, split leaves. Brings a bold, modern aesthetic to your home while thriving in indirect light.",
+      "price": "25",
+      "image": "plant-store/src/assets/matthew-ball-2L11W39hDYo-unsplash.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Peace Lily",
+      "description": "Elegant and low-maintenance, the Peace Lily features glossy leaves and delicate white blooms. Perfect for brightening quieter corners of your home.",
+      "price": "18",
+      "image": "plant-store/src/assets/michaela-zakopcanikova-ZFKbnI1fQTc-unsplash.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Snake Plant (Sansevieria)",
+      "description": "A hardy, air-purifying plant with upright, architectural leaves. Extremely resilient and perfect for beginners or low-light environments.",
+      "price": "20",
+      "image": "plant-store/src/assets/patrycja-chociej-HkITczHntu0-unsplash.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Fiddle Leaf Fig",
+      "description": "A popular statement plant with large, violin-shaped leaves. Ideal for adding height and character to living rooms or open spaces.",
+      "price": "35",
+      "image": "plant-store/src/assets/david-fintz-N1mZ9cDMbJY-unsplash.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Calathea Orbifolia",
+      "description": "Known for its stunning patterned foliage, this plant adds a decorative touch with its soft, round leaves and subtle striping.",
+      "price": "28",
+      "image": "plant-store/src/assets/osman-hussaini-ZbQRKeyzXqQ-unsplash.jpg"
+    }
+  ]
+}
