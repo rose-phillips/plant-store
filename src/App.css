@@ -6,5 +6,47 @@
 }
 .app {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  width: 100px;
+  background-color: maroon;
+  color: whitesmoke;
+  font-size: 12px;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/josefin-WS5yjFjycNY-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1000px;
+  height: 500px;
+  border-radius: 3px;
+  color: whitesmoke;
+}
+
+.header {
+  font-size: 70px;
+  line-height: 70px;
+  margin: 0;
 }
