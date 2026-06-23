@@ -35,7 +35,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./assets/josefin-WS5yjFjycNY-unsplash.jpg);
+  background-image: url(./srcAssets/josefin-WS5yjFjycNY-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -49,4 +49,26 @@ nav {
   font-size: 70px;
   line-height: 70px;
   margin: 0;
+}
+main {
+  margin: 0 auto;
+}
+
+.all-products-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 66vw;
+  justify-content: center;
+ }
+
+.item-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  align-items: center;
+}
+.item-card-container img {
+  width: 250px;
+
 }

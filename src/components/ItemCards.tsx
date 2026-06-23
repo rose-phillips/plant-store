@@ -1,16 +1,15 @@
+import type { ProductInfoTypes } from "../types";
 
 
-
-function ItemCards() {
+export const ItemCards = (item: ProductInfoTypes) => {
 
 
 
     return (
         <div className="item-card-container">
-            <img></img>
-            <p>Product Name</p>
+            <img src={item.image}/>
+            <h5>{item.title}</h5>
+            <p>{item.price}</p>
         </div>   
     );
-}
-
-export default ItemCards;
+};
