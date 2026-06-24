@@ -1,10 +1,7 @@
 import { Link } from "react-router";
-import type { ProductInfoTypes } from "../types";
-
+import type { ProductInfoTypes } from "../context/plantData";
 
 export const ItemCards = (item: ProductInfoTypes) => {
-
-
 
     return (
         <Link to={`/products/${item.id}`} key={item.id}>

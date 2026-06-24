@@ -60,7 +60,7 @@ main {
   gap: 25px;
   width: 66vw;
   justify-content: center;
- }
+}
 
 .item-card-container {
   display: flex;
@@ -71,4 +71,8 @@ main {
 .item-card-container img {
   width: 250px;
 
+}
+
+.plantpage-img {
+  width: 200px;
 }
