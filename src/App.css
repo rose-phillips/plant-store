@@ -25,7 +25,7 @@ nav {
   border-radius: 3px;
   padding: 5px;
   width: 100px;
-  background-color: maroon;
+  background-color: #118a7e;
   color: whitesmoke;
   font-size: 12px;
 }
@@ -62,6 +62,16 @@ main {
   justify-content: center;
  }
 
+ .item-link {
+  text-decoration: none;
+  color: #1f6f78;
+ }
+ .item-link:hover {
+  text-decoration: none;
+  color: #3baea0;
+ }
+
+
 .item-card-container {
   display: flex;
   flex-direction: column;
@@ -70,5 +80,21 @@ main {
 }
 .item-card-container img {
   width: 250px;
+  border-radius: 250px;
+}
 
+.item-card-container h5 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+.item-card-container p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.product-page-container {
+  display: flex;
+  flex-direction: column;
+  width: 66vw;
+  align-items: start;
 }

@@ -8,8 +8,8 @@ export const Product = () => {
 
     console.log("DATA:", plant);
   return (
-    <div>
-      <h2>{plant.title}</h2><p>{plant.price}</p>
+    <div className="product-page-container">
+      <h2>{plant.title}</h2><p>£{plant.price}</p>
       <img src={plant.image} style={{ width: "200px" }}alt={plant.title} />
       <p>{plant.description}</p>
     </div>

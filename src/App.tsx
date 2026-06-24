@@ -20,14 +20,14 @@ function App() {
         .then((data) => setProductInfo(data))
         .catch((error) => console.log(error));
     }, []);
-
+    //Loader 
     async function loadPlantData({ params }: LoaderFunctionArgs) {
     const response = await fetch(`http://localhost:3000/products/${params.id}`);
     const data = await response.json();
     console.log(params)
     return data;
   }
-
+  //Browser router
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RouteLayout/>}>
